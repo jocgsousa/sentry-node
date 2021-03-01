@@ -7,9 +7,9 @@
 
 <p>Não que bugs não sejam importantes para serem resolvidos. Entretanto, é possível classificá-los em algumas categorias básicas: (ao menos em aplicações web, que é a minha especialidade)</p>
 
-[x]No estilo - Normalmente causado por problemas de carregamento em arquivos CSS;
-[x]No Javascript - Costumam acontecer por problemas em dependências ou incompatibilidades entre navegadores;
-[x]No backend - Podem acontecer tanto por problemas de servidor, condições previamente não consideradas e problemas em relação aos softwares do qual o aplicativo depende;
+[x] No estilo - Normalmente causado por problemas de carregamento em arquivos CSS;
+[x] No Javascript - Costumam acontecer por problemas em dependências ou incompatibilidades entre navegadores;
+[x] No backend - Podem acontecer tanto por problemas de servidor, condições previamente não consideradas e problemas em relação aos softwares do qual o aplicativo depende;
 Bugs de estilo normalmente são mais facilmente detectaveis tanto em desenvolvimento quanto logo após o release, afinal, se o CSS não carrega normalmente todo o site fica desconfigurado, e portanto você pode facilmente notar que há algo errado.
 
 <p>Entretanto, em relação a bugs no javascript e no backend, uma falha pode as vezes não ficar tão explicita assim, tanto durante desenvolvimento quanto logo após o release. Bugs assim podem ser causados tanto porque o teste não foi realizado em diferentes navegadores quanto por falhas como queda do banco de dados, quedas de serviços de terceiros e lugares que podem ter sido afetados quando programando um sistema com suporte a eventos/hooks.</p>
@@ -26,5 +26,5 @@ Bugs de estilo normalmente são mais facilmente detectaveis tanto em desenvolvim
 
 <p>Caso você ainda programe sua aplicação para enviar relatórios de exceção por e-mail, ou mesmo não monitora a saúde de sua aplicação, experimente o Sentry. Como aplicativo opensource, o Sentry é fácil de instalar e costuma trazer bons benefícios em relação a monitoramento no curto, médio e longo prazo. Além disso, se você não tiver paciência para configurações, é possível usá-lo como SAAS - sem configuração nos seus servidores -, também, sendo esta última opção paga mas com todo um monitoramento exclusivo para o uptime do próprio Sentry, também.</p>
 
-<strong>Site oficial:</strong> <a target="_blank" href="https://getsentry.com/">https://getsentry.com/</a><br>
-<strong>Repositório no Github:</strong> <a target="_blank" href="https://github.com/getsentry/sentry/">https://github.com/getsentry/sentry
+<strong>Site oficial:</strong> <a target='_blank' href="https://getsentry.com/">https://getsentry.com/</a><br>
+<strong>Repositório no Github:</strong> <a target='_blank' href="https://github.com/getsentry/sentry/">https://github.com/getsentry/sentry
