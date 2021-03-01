@@ -1,4 +1,5 @@
-# SENTRY
+# SENTRY 
+<img src="./src/assets/images/sentry-3.svg" />
 
 Para resolver este problema de monitoramento de bugs é que existe o Sentry.
 O Sentry é uma aplicação web, desenvolvida em Python, que permite coletar tracebacks
