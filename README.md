@@ -1,4 +1,4 @@
-# SENTRY <img src="./src/assets/images/sentry-3.svg" width="100px"/>
+# SENTRY <img src="./src/assets/images/sentry-3.svg" width="50px"/>
 
 
 Para resolver este problema de monitoramento de bugs é que existe o Sentry.
