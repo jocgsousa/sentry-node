@@ -29,8 +29,3 @@ Bugs de estilo normalmente são mais facilmente detectaveis tanto em desenvolvim
 <strong>Site oficial:</strong> <a target='_blank' href="https://getsentry.com/">https://getsentry.com/</a><br>
 <strong>Repositório no Github:</strong> <a target='_blank' href="https://github.com/getsentry/sentry/">https://github.com/getsentry/sentry
 
-<style>
-    p {
-        text-align: justify;
-    }
-</style>
