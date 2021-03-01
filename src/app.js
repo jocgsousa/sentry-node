@@ -33,7 +33,7 @@ class App{
     middlewares(){
         // Atribuido ao servidor usar as configurações de requisições do sentry
         this.server.use(Sentry.Handlers.requestHandler());
-        // Arqui atribuímos ao node que é para set utilzado a linguagem de estrutura de dados JSON
+        // Arqui atribuímos ao node para trabalhar com JSON
         this.server.use(express.json());
     }
 
